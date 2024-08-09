@@ -211,7 +211,7 @@ export default function Page() {
                     Trung Vu
                   </Link>
                   <p className="text-muted-foreground text-center">
-                  <a href="https://bespokelabs.ai" target="_blank">Bespoke Labs</a>
+                    <a href="https://bespokelabs.ai" target="_blank">Bespoke Labs</a>
                   </p>
                 </div>
               </div>
