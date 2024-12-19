@@ -80,7 +80,8 @@ export default function Leaderboard({ scoresData }: LeaderboardProps) {
     "Llama-3.1-405B-Instruct",
     "Mistral-Large 2",
     "MiniCheck-Flan-T5-L",
-    "Qwen2.5-72B-Instruct"
+    "Qwen2.5-72B-Instruct",
+    "Llama-3.3-70B-Instruct"
   ]);
   const [sortColumn, setSortColumn] = useState<NumericDataColumn>("Average");
   const [maxNumModelsOptions, setMaxNumModelsOptions] = useState<number>(3);
