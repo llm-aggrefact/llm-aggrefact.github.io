@@ -36,11 +36,11 @@ export default function Page() {
             </Link>
             ,{" "}
             <Link
-              href="https://arxiv.org/pdf/2404.10774"
+              href="https://aclanthology.org/2024.emnlp-main.499/"
               target="_blank"
               className="inline-flex items-center custom-link text-sm"
             >
-              arXiv
+              EMNLP 2024
               <Image
                 src="/arxiv-logomark-small.svg"
                 className="mx-1"
