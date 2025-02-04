@@ -604,7 +604,7 @@ export const scoresData: ModelData[] = [
     link: "https://huggingface.co/bespokelabs/Bespoke-Minicheck-7B",
   },
   {
-    model: "HHEM-2.1",
+    model: "HHEM-2.1-open",
     Size: "0.1B",
     CNN: 62.8,
     XSum: 67.8,
