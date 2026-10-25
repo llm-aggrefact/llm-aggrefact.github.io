@@ -74,8 +74,13 @@ export default function Leaderboard({ scoresData }: LeaderboardProps) {
   const [selectedColumns, setSelectedColumns] =
     useState<(keyof ModelData)[]>(allColumns);
   const [selectedModels, setSelectedModels] = useState<string[]>([
+    "Clef",
+    "Decider v1.2",
+    "d1-ultra",
+    "Clef Flash",
+    "Drex v1.5",
     "nimble-v4-max",
-    "Jev 1.1.3.0",
+    "Jev 1.13.0",
     "nimble-v4",
     "Bespoke-Minicheck-7B",
     "Claude-3.5 Sonnet",
