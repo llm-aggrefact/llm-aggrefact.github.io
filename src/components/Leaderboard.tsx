@@ -74,6 +74,8 @@ export default function Leaderboard({ scoresData }: LeaderboardProps) {
   const [selectedColumns, setSelectedColumns] =
     useState<(keyof ModelData)[]>(allColumns);
   const [selectedModels, setSelectedModels] = useState<string[]>([
+    "Decido-1 Grounding",
+    "Decido-1",
     "Clef",
     "Decider v1.2",
     "d1-ultra",
